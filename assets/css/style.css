@@ -1,0 +1,149 @@
+body {
+    font-size: 41.56px;
+    color: #000;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 29px;
+}
+.container {
+    width: 2130px; 
+    position: absolute;
+}
+
+.header {
+    padding: 210px 0 145px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info:before {
+    content: '';
+    display: block;
+    background: #d7d7d7;
+    width: 100%;
+    height: 3px;  
+}
+
+.info:after {
+    content: '';
+    display: block;
+    background: #d7d7d7;
+    width: 100%;
+    height: 3px; 
+}
+
+.info-text_first {
+    display: flex;
+    padding: 80px 0 85px;
+    align-items: center;
+        
+}
+
+.title-text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 80px;
+}
+
+.textwrap {
+    left: 80px;
+    position: relative;
+}
+
+.textup {
+    text-transform: uppercase;
+}
+
+.title-text_wrigt {
+    font-size: 29px;
+    width: 240px;
+    margin-left: -33px;
+    margin-right: 56px;
+}
+
+.phone {
+    width: 313px;
+    height: 172px;
+    background: #ffc600;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone_up {
+    margin-bottom: 30px;
+}
+
+.phone_up, .phone_dwn {
+    margin-left: 20px;
+}
+
+.phone_up-space {
+    margin-left: 29px;
+}
+
+.phone_dwn-space {
+    margin-left: 20px;
+}
+
+.links {
+    margin-left: 40px;
+}
+
+.links_up {
+    margin-bottom: 45px;
+}
+
+.info-text_second {
+
+    margin-left: 500px;
+    margin-top: 158px;
+    margin-bottom: 93px;
+}
+
+.info-text_second1 {
+    display: flex;
+}
+
+.info-text_second2 {
+    width: 366px;
+    margin-left: 2px;
+    margin-right: 140px;
+}
+.info-text_second3 {
+    padding-bottom: 140px;
+    width: 1555px;
+    margin-left: 2px;
+    
+}    
+
+.info-text_second3-main {
+    padding-bottom: 60px;   
+}
+
+.logo-main {
+    padding-left: 590px;
+}
+
+.vector {
+    padding-top: 573px;
+    padding-left: 1234px;
+}
